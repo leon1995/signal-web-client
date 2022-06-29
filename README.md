@@ -8,6 +8,8 @@ The GUI of the application can be accessed through a web browser (no installatio
 
 Because no Signal Web Client is currently available, this docker container makes the Linux Signal Desktop Client accessable through a web browser or VNC client. It is based on the awesome [jlesage/docker-baseimage-gui](https://github.com/jlesage/docker-baseimage-gui).
 
+The image is updated automatically every monday at 00:00 UTC including the newest updates from signal.
+
 ## Usage
 
 ### Configuration
