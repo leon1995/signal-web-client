@@ -14,6 +14,9 @@ RUN \
 COPY startapp.sh /startapp.sh
 
 ENV APP_NAME="Signal"
+RUN \
+    APP_ICON_URL=https://raw.githubusercontent.com/leon1995/signal-web-client/main/images/signal_favicon.png && \
+    install_app_icon.sh "$APP_ICON_URL"
 
 VOLUME ["/config"]
 
