@@ -24,5 +24,5 @@ LABEL \
       org.label-schema.name="Singal" \
       org.label-schema.description="Docker container for Signal" \
       org.label-schema.version="$DOCKER_IMAGE_VERSION" \
-      org.label-schema.vcs-url="" \
+      org.label-schema.vcs-url="https://github.com/leon1995/signal-web-client" \
       org.label-schema.schema-version="1.0"
