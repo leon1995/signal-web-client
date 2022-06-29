@@ -37,5 +37,4 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-          repository: leon1995/signal-web-client
-          short-description: Signal Desktop Client accessable through a web browser (or VNC client)  
+          repository: leon1995/signal-web-client  
