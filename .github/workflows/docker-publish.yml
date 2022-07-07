@@ -3,10 +3,6 @@ name: Docker
 on:
   schedule:
     - cron: '0 0 * * MON'
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   build:
