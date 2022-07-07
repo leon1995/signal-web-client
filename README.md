@@ -1,3 +1,4 @@
+[![Docker](https://github.com/leon1995/signal-web-client/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/leon1995/signal-web-client/actions/workflows/docker-publish.yml) [![pulls](https://img.shields.io/docker/pulls/b4ssh/signal-web-client.svg)](https://hub.docker.com/repository/docker/b4ssh/signal-web-client/)
 # Docker container for Signal Desktop
 
 The GUI of the application can be accessed through a web browser (no installation or configuration needed on the client side) or via any VNC client.
